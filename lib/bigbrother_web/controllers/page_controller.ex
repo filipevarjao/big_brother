@@ -1,0 +1,7 @@
+defmodule BigbrotherWeb.PageController do
+  use BigbrotherWeb, :controller
+
+  def index(conn, _params) do
+    render(conn, "index.html")
+  end
+end
